@@ -1,0 +1,8 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+RAW_DATA = ROOT / "data" / "raw" / "WA_Fn-UseC_-Telco-Customer-Churn.csv"
+
+TARGET = "Churn"
+RANDOM_STATE = 42
